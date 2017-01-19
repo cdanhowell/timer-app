@@ -1,7 +1,7 @@
 {
   "name": "electron-starter-kit",
   "version": "1.0.0",
-  "description": "A basic project for starting an Electron app with ReactJS, BabelJS, ReactJS, Redux/Redux-saga, and StandardJS",
+  "description": "A basic project for starting an Electron app with BabelJS, ReactJS, Redux/Redux-saga, and StandardJS",
   "main": "index.js",
   "scripts": {
     "start": "set ENV=development&& electron .",
