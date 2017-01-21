@@ -24,6 +24,8 @@ const saveState = debounce(() => {
   window.localStorage.setItem('state', JSON.stringify(store.getState()))
 }, 1000)
 
+
+
 store.subscribe(() => {
   saveState()
   render(App)

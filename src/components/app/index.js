@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 
-class componentName extends Component {
+class TimerApp extends Component {
+
   render () {
     return (
       <div>
@@ -10,4 +11,4 @@ class componentName extends Component {
   }
 }
 
-export default componentName
+export default TimerApp
